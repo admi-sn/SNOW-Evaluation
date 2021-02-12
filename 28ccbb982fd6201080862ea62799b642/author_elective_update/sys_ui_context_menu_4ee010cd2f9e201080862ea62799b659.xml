@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_context_menu">
+    <sys_ui_context_menu action="DELETE">
+        <action_script><![CDATA[/**
+ * Script executed on the Client for this menu action
+ *
+ * The following variables are available to the script:
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ *    'rowSysId' is also set to the sys_id of the row to support legacy actions, but g_sysId is preferred
+ */
+ 
+]]></action_script>
+        <active>false</active>
+        <comments/>
+        <condition>ListProperties.canChangeView() &amp;&amp; gs.hasRightsTo('ui/context_menu.view/read', null) &amp;&amp; (gs.getUser.hasRole('admin'))</condition>
+        <do_not_cache>false</do_not_cache>
+        <dynamic_actions_script><![CDATA[/** 
+ * This server-side script is used to dynamically create actions for the context menu, such as the list of available templates 
+ * 
+ * The following variables are available to the script: 
+ *    'g_tableName' the name of the current table 
+ *    'g_listId' the id of the list we are building the context menu for 
+ *    'g_itemName' the name of the UI Context Menu item we are building 
+ *    'g_itemOrder' the order defined in the UI Context Menu item we are building 
+ * 
+ * Add items to the context menu by calling: 
+ *    g_contextMenu.addAction(item_id, label, script_string, order); 
+ */ 
+]]></dynamic_actions_script>
+        <menu>list_title</menu>
+        <name>View</name>
+        <on_show_script><![CDATA[/**
+ * This client-side script is used to dynamically change the context menu before it is displayed.
+ * It is called before showing the context menu if the Run onShow script flag is checked.
+ *
+ * The following variables are available to the script:
+ *    'g_menu' the context menu that is about to be shown
+ *    'g_item' the current context menu item
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ */
+ 
+]]></on_show_script>
+        <order>1000</order>
+        <parent/>
+        <run_on_show_script>false</run_on_show_script>
+        <sys_class_name>sys_ui_context_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:31:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ee010cd2f9e201080862ea62799b659</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>View</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>sys_ui_context_menu_4ee010cd2f9e201080862ea62799b659</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:35:20</sys_updated_on>
+        <table>x_565129_snow_eval_suggestions</table>
+        <track_selected>false</track_selected>
+        <type>menu</type>
+    </sys_ui_context_menu>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_ui_context_menu_4ee010cd2f9e201080862ea62799b659</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_context_menu"&gt;&lt;sys_ui_context_menu action="INSERT_OR_UPDATE"&gt;&lt;action_script&gt;&lt;![CDATA[/**
+ * Script executed on the Client for this menu action
+ *
+ * The following variables are available to the script:
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ *    'rowSysId' is also set to the sys_id of the row to support legacy actions, but g_sysId is preferred
+ */
+ 
+]]&gt;&lt;/action_script&gt;&lt;active&gt;false&lt;/active&gt;&lt;comments/&gt;&lt;condition&gt;ListProperties.canChangeView() &amp;amp;&amp;amp; gs.hasRightsTo('ui/context_menu.view/read', null) &amp;amp;&amp;amp; (gs.getUser.hasRole('admin'))&lt;/condition&gt;&lt;do_not_cache&gt;false&lt;/do_not_cache&gt;&lt;dynamic_actions_script&gt;&lt;![CDATA[/** 
+ * This server-side script is used to dynamically create actions for the context menu, such as the list of available templates 
+ * 
+ * The following variables are available to the script: 
+ *    'g_tableName' the name of the current table 
+ *    'g_listId' the id of the list we are building the context menu for 
+ *    'g_itemName' the name of the UI Context Menu item we are building 
+ *    'g_itemOrder' the order defined in the UI Context Menu item we are building 
+ * 
+ * Add items to the context menu by calling: 
+ *    g_contextMenu.addAction(item_id, label, script_string, order); 
+ */ 
+]]&gt;&lt;/dynamic_actions_script&gt;&lt;menu&gt;list_title&lt;/menu&gt;&lt;name&gt;View&lt;/name&gt;&lt;on_show_script&gt;&lt;![CDATA[/**
+ * This client-side script is used to dynamically change the context menu before it is displayed.
+ * It is called before showing the context menu if the Run onShow script flag is checked.
+ *
+ * The following variables are available to the script:
+ *    'g_menu' the context menu that is about to be shown
+ *    'g_item' the current context menu item
+ *    'g_list' the GlideList2 that the script is running against (only valid for List context menus)
+ *    'g_fieldName' the name of the field that the context menu is running against (only valid for List context menus)
+ *    'g_fieldLabel' the label of the field that the context menu is running against (only valid for List context menus)
+ *    'g_sysId' the sys_id of the row or form that the script is running against
+ */
+ 
+]]&gt;&lt;/on_show_script&gt;&lt;order&gt;1000&lt;/order&gt;&lt;parent/&gt;&lt;run_on_show_script&gt;false&lt;/run_on_show_script&gt;&lt;sys_class_name&gt;sys_ui_context_menu&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-11 03:31:14&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4ee010cd2f9e201080862ea62799b659&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;View&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNOW Evaluation"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_context_menu_4ee010cd2f9e201080862ea62799b659&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-11 03:35:20&lt;/sys_updated_on&gt;&lt;table&gt;x_565129_snow_eval_suggestions&lt;/table&gt;&lt;track_selected&gt;false&lt;/track_selected&gt;&lt;type&gt;menu&lt;/type&gt;&lt;/sys_ui_context_menu&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-195673652</payload_hash>
+        <record_name>View</record_name>
+        <reverted_from/>
+        <source>6cccbb982fd6201080862ea62799b644</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:35:20</sys_created_on>
+        <sys_id>362290012fde201080862ea62799b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778f2853920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:35:20</sys_updated_on>
+        <type>Context Menu</type>
+        <update_guid>7e22900186de201036ccde6d55065ba9</update_guid>
+        <update_guid_history>7e22900186de201036ccde6d55065ba9:-195673652,76319c8d959e2010d9ec7960135f31b6:-1168247843</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:36:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_context_menu">sys_ui_context_menu</sys_db_object>
+        <sys_id>3870205be8a94addb2083cd727fa4ec9</sys_id>
+        <sys_metadata>4ee010cd2f9e201080862ea62799b659</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>View</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_ui_context_menu_4ee010cd2f9e201080862ea62799b659</sys_update_name>
+        <sys_update_version display_value="sys_ui_context_menu_4ee010cd2f9e201080862ea62799b659">362290012fde201080862ea62799b6aa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:36:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_565129_snow_eval_suggestions" version="2" view="advanced_view">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_id>575ac4c52f9e201080862ea62799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>date_added</element>
+            <list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_id>d75ac4c52f9e201080862ea62799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_id>5b5ac4c52f9e201080862ea62799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>reviews</element>
+            <list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_id>db5ac4c52f9e201080862ea62799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_id>5f5ac4c52f9e201080862ea62799b680</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_565129_snow_eval_suggestions</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-11 03:01:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b5ac4c52f9e201080862ea62799b67f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_565129_snow_eval_suggestions</sys_name>
+            <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+            <sys_update_name>sys_ui_list_x_565129_snow_eval_suggestions_advanced_view</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-11 03:01:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Advanced View" name="advanced_view">dda93788c9a7101091f9f06464832768</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_ui_list_x_565129_snow_eval_suggestions_advanced_view</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_565129_snow_eval_suggestions" version="2" view="advanced_view"><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_id>575ac4c52f9e201080862ea62799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>date_added</element><list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_id>d75ac4c52f9e201080862ea62799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>description</element><list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_id>5b5ac4c52f9e201080862ea62799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>reviews</element><list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_id>db5ac4c52f9e201080862ea62799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>short_description</element><list_id display_value="x_565129_snow_eval_suggestions" element="NULL" name="x_565129_snow_eval_suggestions" parent="NULL" relationship="NULL" sys_domain="global" view="dda93788c9a7101091f9f06464832768">9b5ac4c52f9e201080862ea62799b67f</list_id><max_value>false</max_value><min_value>false</min_value><position>4</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_id>5f5ac4c52f9e201080862ea62799b680</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_565129_snow_eval_suggestions</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 03:01:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9b5ac4c52f9e201080862ea62799b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_565129_snow_eval_suggestions</sys_name><sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package><sys_policy/><sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope><sys_update_name>sys_ui_list_x_565129_snow_eval_suggestions_advanced_view</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 03:01:14</sys_updated_on><sys_user/><view display_value="Advanced View" name="advanced_view">dda93788c9a7101091f9f06464832768</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-140782943</payload_hash>
+        <record_name>Suggestions</record_name>
+        <reverted_from/>
+        <source>6cccbb982fd6201080862ea62799b644</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:01:15</sys_created_on>
+        <sys_id>275ac4492f9e201080862ea62799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778f091c940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:01:15</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>af5ac449c59e201059787b79c50aeef6</update_guid>
+        <update_guid_history>af5ac449c59e201059787b79c50aeef6:-140782943</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>48f43fba904c4126b6a2e138ff05ac79</sys_id>
+        <sys_metadata>9b5ac4c52f9e201080862ea62799b67f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_565129_snow_eval_suggestions</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent display_value="Suggestions">a724c4ec2fd6201080862ea62799b617</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_565129_snow_eval_suggestions_advanced_view</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_565129_snow_eval_suggestions_advanced_view">275ac4492f9e201080862ea62799b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:35:57</sys_created_on>
+        <sys_id>3051157c2f96201080862ea62799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.admin</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_security_acl display_value="">9341957c2f96201080862ea62799b676</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3051157c2f96201080862ea62799b6f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:35:57</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_security_acl_role_3051157c2f96201080862ea62799b6f3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-10 13:35:57</sys_created_on><sys_id>3051157c2f96201080862ea62799b6f3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.admin</sys_name><sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package><sys_policy/><sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope><sys_security_acl display_value="">9341957c2f96201080862ea62799b676</sys_security_acl><sys_update_name>sys_security_acl_role_3051157c2f96201080862ea62799b6f3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-10 13:35:57</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>269543387</payload_hash>
+        <record_name>.admin</record_name>
+        <reverted_from/>
+        <source>6cccbb982fd6201080862ea62799b644</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 13:35:57</sys_created_on>
+        <sys_id>1b02d57c2f96201080862ea62799b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778c27d9510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 13:35:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>5302d57ce596201065a0b4e6ce39b64a</update_guid>
+        <update_guid_history>5302d57ce596201065a0b4e6ce39b64a:269543387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".admin">49fd51782fd6201080862ea62799b679</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 14:27:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>00718aae8eb34b32801702fb11d48c91</sys_id>
+        <sys_metadata>3051157c2f96201080862ea62799b6f3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.admin</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3051157c2f96201080862ea62799b6f3</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3051157c2f96201080862ea62799b6f3">1b02d57c2f96201080862ea62799b64a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 14:27:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
