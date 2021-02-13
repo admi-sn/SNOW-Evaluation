@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="New Joiner Order Guide">1824b1192f92201080862ea62799b6db</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 12:10:17</sys_created_on>
+        <sys_id>bb915b192f96201080862ea62799b60a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Joiners Form Variables.New Joiner Order Guide</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>io_set_item_bb915b192f96201080862ea62799b60a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:10:17</sys_updated_on>
+        <variable_set display_value="New Joiners Form Variables">a39aad512f92201080862ea62799b63b</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>io_set_item_bb915b192f96201080862ea62799b60a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="New Joiner Order Guide">1824b1192f92201080862ea62799b6db</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-12 12:10:17</sys_created_on><sys_id>bb915b192f96201080862ea62799b60a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>New Joiners Form Variables.New Joiner Order Guide</sys_name><sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package><sys_policy/><sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope><sys_update_name>io_set_item_bb915b192f96201080862ea62799b60a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-12 12:10:17</sys_updated_on><variable_set display_value="New Joiners Form Variables">a39aad512f92201080862ea62799b63b</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>640337523</payload_hash>
+        <record_name>New Joiners Form Variables.New Joiner Order Guide</record_name>
+        <reverted_from/>
+        <source>52dd47112f96201080862ea62799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 12:10:17</sys_created_on>
+        <sys_id>7b915b192f96201080862ea62799b611</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1779626235e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:10:17</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>b3915b198e962010e2ff70a9b9957811</update_guid>
+        <update_guid_history>b3915b198e962010e2ff70a9b9957811:640337523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Joiners Form Variables.New Joiner Order Guide">5de8d35d2f96201080862ea62799b638</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 12:42:04</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>143322e962524940845c155abf4125a4</sys_id>
+        <sys_metadata>bb915b192f96201080862ea62799b60a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Joiners Form Variables.New Joiner Order Guide</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>io_set_item_bb915b192f96201080862ea62799b60a</sys_update_name>
+        <sys_update_version display_value="io_set_item_bb915b192f96201080862ea62799b60a">7b915b192f96201080862ea62799b611</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:42:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

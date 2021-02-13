@@ -7,7 +7,7 @@
         <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-11 06:17:05</sys_created_on>
         <sys_id>f065b0c92f12601080862ea62799b6cf</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Request for ID</sys_name>
         <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
         <sys_update_name>sc_cat_item_f065b0c92f12601080862ea62799b6cf</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 06:45:20</sys_updated_on>
+        <sys_updated_on>2021-02-12 15:35:43</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
@@ -74,7 +74,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="New Joiner Management Flow">0c68fb912f1a201080862ea62799b677</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=f065b0c92f12601080862ea62799b6cf"/>
     <fx_price action="delete_multiple" query="id=f065b0c92f12601080862ea62799b6cf"/>

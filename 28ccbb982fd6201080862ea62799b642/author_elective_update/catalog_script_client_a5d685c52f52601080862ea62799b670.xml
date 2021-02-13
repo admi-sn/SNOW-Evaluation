@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="New Joiner Order Guide">1824b1192f92201080862ea62799b6db</cat_item>
+        <cat_variable>IO:c0a1ebd12fd6201080862ea62799b6e6</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onChange Autopopulate_OG</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var username =  g_form.getReference('name', popUserDetails);
+   
+    function popUserDetails(username){
+       
+        g_form.setValue('user_name', username.user_name);
+       
+}
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 07:26:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5d685c52f52601080862ea62799b670</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>onChange Autopopulate_OG</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>catalog_script_client_a5d685c52f52601080862ea62799b670</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 13:54:12</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>catalog_script_client_a5d685c52f52601080862ea62799b670</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="New Joiner Order Guide"&gt;1824b1192f92201080862ea62799b6db&lt;/cat_item&gt;&lt;cat_variable&gt;IO:c0a1ebd12fd6201080862ea62799b6e6&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;onChange Autopopulate_OG&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var username =  g_form.getReference('name', popUserDetails);
+   
+    function popUserDetails(username){
+       
+        g_form.setValue('user_name', username.user_name);
+       
+}
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-11 07:26:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;a5d685c52f52601080862ea62799b670&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;onChange Autopopulate_OG&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNOW Evaluation"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_a5d685c52f52601080862ea62799b670&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-12 13:54:12&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1925336347</payload_hash>
+        <record_name>onChange Autopopulate_OG</record_name>
+        <reverted_from/>
+        <source>52dd47112f96201080862ea62799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 13:54:12</sys_created_on>
+        <sys_id>75692b592fd6201080862ea62799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177968544140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 13:54:12</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>bd692b59efd6201051fcb9da948a792b</update_guid>
+        <update_guid_history>bd692b59efd6201051fcb9da948a792b:1925336347,40592f59a0d62010a9cb24bc3a001648:-1423977480,3eb86759e0d6201099393f9c0a1ba109:1925336347,1cb82759e1d62010931d3511b7972467:1136955131,c056b199ce92201032cbd222263f563c:-1304664898,867c09c90e52601044316c64cff2a0c1:303777860,32f6c1c5df52601041efb48390d36c92:1762119428</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="onChange Autopopulate_OG">ed11b3112f1a201080862ea62799b6f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 14:27:46</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>08700a81d46043bd80caad01e001b0c1</sys_id>
+        <sys_metadata>a5d685c52f52601080862ea62799b670</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onChange Autopopulate_OG</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_a5d685c52f52601080862ea62799b670</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_a5d685c52f52601080862ea62799b670">75692b592fd6201080862ea62799b62c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 14:27:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

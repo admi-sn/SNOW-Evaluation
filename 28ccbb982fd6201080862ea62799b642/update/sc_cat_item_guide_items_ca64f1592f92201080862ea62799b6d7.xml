@@ -4,7 +4,7 @@
         <guide display_value="New Joiner Order Guide">1824b1192f92201080862ea62799b6db</guide>
         <ignore_mandatory_eval>false</ignore_mandatory_eval>
         <item display_value="Request for Workstation">b4dd34cd2f12601080862ea62799b671</item>
-        <order>300</order>
+        <order>200</order>
         <quantity>1</quantity>
         <requested_by/>
         <requested_for/>
@@ -13,14 +13,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-12 05:29:26</sys_created_on>
         <sys_id>ca64f1592f92201080862ea62799b6d7</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>b4dd34cd2f12601080862ea62799b671</sys_name>
         <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
         <sys_update_name>sc_cat_item_guide_items_ca64f1592f92201080862ea62799b6d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 07:11:08</sys_updated_on>
+        <sys_updated_on>2021-02-12 12:45:53</sys_updated_on>
         <use_sc_layout>true</use_sc_layout>
     </sc_cat_item_guide_items>
 </record_update>

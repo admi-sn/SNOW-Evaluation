@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>750000</misc>
+        <order>400</order>
+        <question display_value="Type of Computer">46fe3c012f52601080862ea62799b65f</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 08:01:48</sys_created_on>
+        <sys_id>6eee854d2f52601080862ea62799b6c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Office Desktop</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>question_choice_6eee854d2f52601080862ea62799b6c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:21:45</sys_updated_on>
+        <text>Office Desktop</text>
+        <value>mac</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=6eee854d2f52601080862ea62799b6c1"/>
+    <fx_price action="DELETE">
+        <amount>750000</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>6eee854d2f52601080862ea62799b6c1</id>
+        <parent/>
+        <reference_amount>750000</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 08:01:48</sys_created_on>
+        <sys_id>ca2f890d2f52601080862ea62799b673</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 08:21:07</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>6eee854d2f52601080862ea62799b6c1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 08:01:48</sys_created_on>
+        <sys_id>0e2f890d2f52601080862ea62799b672</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 08:01:48</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>question_choice_6eee854d2f52601080862ea62799b6c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>750000</misc><order>400</order><question display_value="Type of Computer">46fe3c012f52601080862ea62799b65f</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 08:01:48</sys_created_on><sys_id>6eee854d2f52601080862ea62799b6c1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Office Desktop</sys_name><sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package><sys_policy/><sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope><sys_update_name>question_choice_6eee854d2f52601080862ea62799b6c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-12 12:21:45</sys_updated_on><text>Office Desktop</text><value>mac</value></question_choice><fx_price action="delete_multiple" query="id=6eee854d2f52601080862ea62799b6c1"/><fx_price action="INSERT_OR_UPDATE"><amount>750000</amount><currency display_value="USD">USD</currency><field>misc</field><id>6eee854d2f52601080862ea62799b6c1</id><parent/><reference_amount>750000</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 08:01:48</sys_created_on><sys_id>ca2f890d2f52601080862ea62799b673</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 08:21:07</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>6eee854d2f52601080862ea62799b6c1</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 08:01:48</sys_created_on><sys_id>0e2f890d2f52601080862ea62799b672</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 08:01:48</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1283149178</payload_hash>
+        <record_name>Office Desktop</record_name>
+        <reverted_from/>
+        <source>52dd47112f96201080862ea62799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 12:21:45</sys_created_on>
+        <sys_id>e334d7992f96201080862ea62799b6f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1779630a0a80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:21:45</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>2f34d799c6962010358f8a7f85305af2</update_guid>
+        <update_guid_history>2f34d799c6962010358f8a7f85305af2:-1283149178,d6f3df5940962010e54029d21e6d71ab:-605636605,059359010892601028b1f27bbc295249:1539250984,dd439dcd4d5260101f3186c3163a2b81:-314053512,462f494da0526010de5254cd58045f3a:-1374322726</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Office Desktop">5ed49f992f96201080862ea62799b69d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-12 12:24:23</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>0816f56390b54c9480bdd980b634f510</sys_id>
+        <sys_metadata>6eee854d2f52601080862ea62799b6c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Office Desktop</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent display_value="Type of Computer">46fe3c012f52601080862ea62799b65f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>question_choice_6eee854d2f52601080862ea62799b6c1</sys_update_name>
+        <sys_update_version display_value="question_choice_6eee854d2f52601080862ea62799b6c1">e334d7992f96201080862ea62799b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-12 12:24:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
