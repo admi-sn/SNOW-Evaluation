@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
-        <attributes/>
+        <attributes>javascript:"System (" + gs.getSysTimeZone() + ")"</attributes>
         <cat_item display_value="New Joiners Form">6f04fba82f92201080862ea62799b6c1</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
@@ -62,14 +62,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-10 07:27:22</sys_created_on>
         <sys_id>d18dbf202fd2201080862ea62799b696</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Time zone</sys_name>
         <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
         <sys_update_name>item_option_new_d18dbf202fd2201080862ea62799b696</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 06:07:32</sys_updated_on>
+        <sys_updated_on>2021-02-13 13:52:21</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

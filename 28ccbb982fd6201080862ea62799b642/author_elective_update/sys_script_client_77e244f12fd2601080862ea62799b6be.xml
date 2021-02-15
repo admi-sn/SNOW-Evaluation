@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Upon loading the form date added is read only. This script is connected with business rule onDisplay.</description>
+        <field>sys_created_by</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Date Added is Read Only</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(!g_form.isNewRecord())
+  g_form.setReadonly('u_date_added',true);
+	if(g_form.isNewRecord())
+  g_form.setReadonly('u_date_added',true);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 10:25:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>77e244f12fd2601080862ea62799b6be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Date Added is Read Only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>sys_script_client_77e244f12fd2601080862ea62799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 10:27:53</sys_updated_on>
+        <table>x_565129_snow_eval_suggestions</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_script_client_77e244f12fd2601080862ea62799b6be</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Upon loading the form date added is read only. This script is connected with business rule onDisplay.&lt;/description&gt;&lt;field&gt;sys_created_by&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Date Added is Read Only&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   if(!g_form.isNewRecord())
+  g_form.setReadonly('u_date_added',true);
+	if(g_form.isNewRecord())
+  g_form.setReadonly('u_date_added',true);
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-13 10:25:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;77e244f12fd2601080862ea62799b6be&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Date Added is Read Only&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNOW Evaluation"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_77e244f12fd2601080862ea62799b6be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-13 10:27:53&lt;/sys_updated_on&gt;&lt;table&gt;x_565129_snow_eval_suggestions&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1495797955</payload_hash>
+        <record_name>Date Added is Read Only</record_name>
+        <reverted_from/>
+        <source>52dd47112f96201080862ea62799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 10:27:53</sys_created_on>
+        <sys_id>25c38cf12fd2601080862ea62799b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1779aeebfcf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 10:27:53</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>6dc38cf143d26010949fb11de6beacf6</update_guid>
+        <update_guid_history>6dc38cf143d26010949fb11de6beacf6:1495797955,ff938cf139d26010281dd755f091a922:2016540035,f233ccb138d26010084d46daf4bc3d2d:-19141655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-13 10:30:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1b61344ec8af41e2b60b3c8e07001344</sys_id>
+        <sys_metadata>77e244f12fd2601080862ea62799b6be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Date Added is Read Only</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent display_value="Suggestions">a724c4ec2fd6201080862ea62799b617</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_script_client_77e244f12fd2601080862ea62799b6be</sys_update_name>
+        <sys_update_version display_value="sys_script_client_77e244f12fd2601080862ea62799b6be">25c38cf12fd2601080862ea62799b6f7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-13 10:30:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
