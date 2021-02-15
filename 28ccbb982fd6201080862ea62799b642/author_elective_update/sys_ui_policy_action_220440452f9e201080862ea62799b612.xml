@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>reviews</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 02:34:02</sys_created_on>
+        <sys_id>220440452f9e201080862ea62799b612</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>reviews</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>sys_ui_policy_action_220440452f9e201080862ea62799b612</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 02:40:14</sys_updated_on>
+        <table>x_565129_snow_eval_suggestions</table>
+        <ui_policy display_value="Makes Reviewed field read only in advanced view">15c34c052f9e201080862ea62799b6af</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_ui_policy_action_220440452f9e201080862ea62799b612</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>reviews</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-11 02:34:02</sys_created_on><sys_id>220440452f9e201080862ea62799b612</sys_id><sys_mod_count>2</sys_mod_count><sys_name>reviews</sys_name><sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package><sys_policy/><sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope><sys_update_name>sys_ui_policy_action_220440452f9e201080862ea62799b612</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-11 02:40:14</sys_updated_on><table>x_565129_snow_eval_suggestions</table><ui_policy display_value="Makes Reviewed field read only in advanced view">15c34c052f9e201080862ea62799b6af</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1128476323</payload_hash>
+        <record_name>reviews</record_name>
+        <reverted_from/>
+        <source>6cccbb982fd6201080862ea62799b644</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 02:40:14</sys_created_on>
+        <sys_id>a385c0852f9e201080862ea62799b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778ef5dfca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 02:40:14</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>2f85c085209e2010c6828e88843ed9af</update_guid>
+        <update_guid_history>2f85c085209e2010c6828e88843ed9af:1128476323,bbd408459d9e2010af1151fc6d9c03ad:234047647,81248045c49e201042ad6779d227b91c:1128476323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 08:36:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1736894e37a84a38adf2105602d0e209</sys_id>
+        <sys_metadata>220440452f9e201080862ea62799b612</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reviews</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent display_value="Makes Reviewed field read only in advanced view">15c34c052f9e201080862ea62799b6af</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_220440452f9e201080862ea62799b612</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_220440452f9e201080862ea62799b612">a385c0852f9e201080862ea62799b6b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 08:36:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Suggestions" max_length="40" name="x_565129_snow_eval_suggestions" sizeclass="18" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="120" name="description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="number" type="string"/>
-        <element label="Reviewed" max_length="40" name="reviews" type="boolean"/>
-        <element attributes="edge_encryption_enabled=true" label="Short Description" mandatory="true" max_length="40" name="short_description" type="string"/>
-        <element attributes="encode_utf8=false" label="Suggester" max_length="32" name="suggester" reference="sys_user" type="reference"/>
+    <element label="Suggestions" max_length="40" name="x_565129_snow_eval_suggestions" sizeclass="6" type="collection">
         <element label="Date Added" max_length="40" name="u_date_added" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="4000" name="u_description" type="string"/>
+        <element default="javascript:global.getNextObjNumberPadded();" label="Number" mandatory="true" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element label="Reviewed" max_length="40" name="u_reviewed" type="boolean"/>
+        <element label="Short description" mandatory="true" max_length="40" name="u_short_description" type="string"/>
         <element attributes="encode_utf8=false" label="Suggested by" mandatory="true" max_length="32" name="u_suggested_by" reference="sys_user" type="reference"/>
         <index name="index">
-            <element name="suggester"/>
-        </index>
-        <index name="index2">
             <element name="u_suggested_by"/>
         </index>
     </element>

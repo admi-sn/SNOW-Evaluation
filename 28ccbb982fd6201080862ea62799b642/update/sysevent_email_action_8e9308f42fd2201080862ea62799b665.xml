@@ -37,9 +37,12 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hi&nbsp; ${manager},&nbsp;<br /></p>
+        <message_html><![CDATA[<p>Hi&nbsp; ${manager},&nbsp;</p>
 <p><br /></p>
 <p>This is to inform you that a user account for <strong>${URI_REF}</strong> has been newly added.</p>
+<p>&nbsp;</p>
+<p>Best Regards,</p>
+<p>New Joiner Management</p>
 <p><br /></p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -62,7 +65,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8e9308f42fd2201080862ea62799b665</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>New  User Created thru  Record Producer</sys_name>
         <sys_overrides/>
         <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
@@ -70,7 +73,7 @@
         <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
         <sys_update_name>sysevent_email_action_8e9308f42fd2201080862ea62799b665</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 05:28:13</sys_updated_on>
+        <sys_updated_on>2021-02-15 10:11:49</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

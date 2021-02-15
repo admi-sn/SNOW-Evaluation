@@ -52,21 +52,21 @@
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description/>
+        <short_description>Request for Access</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-11 08:40:05</sys_created_on>
         <sys_id>efc711c12f92601080862ea62799b6d6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Request for Access</sys_name>
         <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
         <sys_policy/>
         <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
         <sys_update_name>sc_cat_item_efc711c12f92601080862ea62799b6d6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-12 15:35:35</sys_updated_on>
+        <sys_updated_on>2021-02-15 12:19:07</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
@@ -74,7 +74,7 @@
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow display_value="New Joiner Management Flow">0c68fb912f1a201080862ea62799b677</workflow>
+        <workflow display_value="New Joiner Order Guide Workflow">ebbf1e9a2f52e01080862ea62799b6f5</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=efc711c12f92601080862ea62799b6d6"/>
     <fx_price action="delete_multiple" query="id=efc711c12f92601080862ea62799b6d6"/>

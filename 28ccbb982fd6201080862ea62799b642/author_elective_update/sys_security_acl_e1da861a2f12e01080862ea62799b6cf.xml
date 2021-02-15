@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition table="x_565129_snow_eval_suggestions.u_short_description">u_suggested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description>Allow write for u_short_description in x_565129_snow_eval_suggestions, for users with role public, and if the ACL script returns true, and if the ACL condition (u_suggested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.</description>
+        <name>x_565129_snow_eval_suggestions.u_short_description</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[var answer = false;
+var loggedIn  = gs.getUserID();
+if(loggedIn)
+  answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 09:37:49</sys_created_on>
+        <sys_id>e1da861a2f12e01080862ea62799b6cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_565129_snow_eval_suggestions.u_short_description</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_update_name>sys_security_acl_e1da861a2f12e01080862ea62799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 09:47:13</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</application>
+        <file_path/>
+        <instance_id>a7d36fcfdb45b300b847ac44d49619bf</instance_id>
+        <instance_name>dev84638</instance_name>
+        <name>sys_security_acl_e1da861a2f12e01080862ea62799b6cf</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition table="x_565129_snow_eval_suggestions.u_short_description"&gt;u_suggested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description&gt;Allow write for u_short_description in x_565129_snow_eval_suggestions, for users with role public, and if the ACL script returns true, and if the ACL condition (u_suggested_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ) evaluates to true.&lt;/description&gt;&lt;name&gt;x_565129_snow_eval_suggestions.u_short_description&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var answer = false;
+var loggedIn  = gs.getUserID();
+if(loggedIn)
+  answer = true;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-15 09:37:49&lt;/sys_created_on&gt;&lt;sys_id&gt;e1da861a2f12e01080862ea62799b6cf&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_565129_snow_eval_suggestions.u_short_description&lt;/sys_name&gt;&lt;sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SNOW Evaluation"&gt;28ccbb982fd6201080862ea62799b642&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_e1da861a2f12e01080862ea62799b6cf&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-15 09:47:13&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-991495413</payload_hash>
+        <record_name>x_565129_snow_eval_suggestions.u_short_description</record_name>
+        <reverted_from/>
+        <source>52dd47112f96201080862ea62799b6a8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 09:47:13</sys_created_on>
+        <sys_id>95adceda2f12e01080862ea62799b61f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177a5163c720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 09:47:13</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ddadceda2912e010d267691c47ea9e1e</update_guid>
+        <update_guid_history>ddadceda2912e010d267691c47ea9e1e:-991495413,54eb0a5a0c12e010ea56752834cae01d:282691374,e37b429a2712e010cfc4dcc29f095bb5:548676535</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 09:49:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>10b1a2d589fd4a778529d4d06fc294b1</sys_id>
+        <sys_metadata>e1da861a2f12e01080862ea62799b6cf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_565129_snow_eval_suggestions.u_short_description</sys_name>
+        <sys_package display_value="SNOW Evaluation" source="x_565129_snow_eval">28ccbb982fd6201080862ea62799b642</sys_package>
+        <sys_parent display_value="Short description">5c1e7dde2fdea01080862ea62799b672</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SNOW Evaluation">28ccbb982fd6201080862ea62799b642</sys_scope>
+        <sys_scope_delete display_value="">d049bbca416f43d088891fcc6abe6dc4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_e1da861a2f12e01080862ea62799b6cf</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_e1da861a2f12e01080862ea62799b6cf">95adceda2f12e01080862ea62799b61f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 09:49:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
